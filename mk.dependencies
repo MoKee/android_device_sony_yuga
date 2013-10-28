@@ -29,7 +29,7 @@
   },
   {
     "repository": "android_packages_apps_FMRadio",
-    "target_path": "packages/apps/FmRadio"
+    "target_path": "packages/apps/FMRadio"
   },
   {
     "repository": "android_hardware_sony_DASH",
