@@ -1,4 +1,4 @@
-# Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2013 The MoKee OpenSource Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -25,7 +25,7 @@ TARGET_SPECIFIC_HEADER_PATH += device/sony/yuga/include
 
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/yuga/bluetooth
 
-TARGET_KERNEL_CONFIG := cm_fusion3_yuga_defconfig
+TARGET_KERNEL_CONFIG := mokee_fusion3_yuga_defconfig
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26
@@ -35,7 +35,7 @@ BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0x01400000
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1056964608
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 2147483648
 
-BOARD_HARDWARE_CLASS += device/sony/yuga/cmhw
+BOARD_HARDWARE_CLASS += device/sony/yuga/mkhw
 
 # UGLY, overrides fusion3-common
 # Audio
