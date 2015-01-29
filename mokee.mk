@@ -1,8 +1,5 @@
 $(call inherit-product, device/sony/yuga/full_yuga.mk)
 
-# Inherit MK common GSM stuff.
-$(call inherit-product, vendor/mk/config/gsm.mk)
-
 # Enhanced NFC
 $(call inherit-product, vendor/mk/config/nfc_enhanced.mk)
 
