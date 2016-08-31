@@ -25,7 +25,7 @@ TARGET_SPECIFIC_HEADER_PATH += device/sony/yuga/include
 
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/yuga/bluetooth
 
-TARGET_KERNEL_CONFIG := cm_fusion3_yuga_defconfig
+TARGET_KERNEL_CONFIG := mokee_fusion3_yuga_defconfig
 
 # Healthd
 BACKLIGHT_PATH := /sys/class/leds/lm3533-lcd-bl/brightness
@@ -36,4 +36,4 @@ BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0x01400000
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2147483648
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 12828261888
 
-BOARD_HARDWARE_CLASS += device/sony/yuga/cmhw
+BOARD_HARDWARE_CLASS += device/sony/yuga/mkhw
