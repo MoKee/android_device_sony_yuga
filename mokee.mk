@@ -15,8 +15,8 @@
 # limitations under the License.
 #
 
-# Inherit common LineageOS stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit common MK stuff
+$(call inherit-product, vendor/mk/config/common_full_phone.mk)
 
 # Inherit device configurations
 $(call inherit-product, device/sony/yuga/device.mk)
@@ -26,7 +26,7 @@ TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
 # Device identifications
-PRODUCT_NAME := lineage_yuga
+PRODUCT_NAME := mk_yuga
 PRODUCT_DEVICE := yuga
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
